@@ -59,12 +59,7 @@ public class AllDefects extends HttpServlet {
         String x = retNull();
         String y = "zxcv";
         String z = "z";
-        if(x!=null){
-        	x=x.toString();
-        }
-        else{
-        	System.out.println("error");
-        }
+    
         x = x.toString();
         y = y.toString();
         z.toString(); // BUG
