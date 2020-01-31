@@ -1,0 +1,5 @@
+method UsrLib.getString() {
+    memory() {
+        return USR_NULL
+    }
+}

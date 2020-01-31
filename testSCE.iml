@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/hibernate-3.2.0.cr2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/javax.persistence.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jdo2-api-2.3-eb.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/saxon-xqj-9.1.0.8.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/servlet-api-2.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/usrlib.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/xmlsec-1.3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/el-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jsp-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/javax.ejb.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.web-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-fileupload-1.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/json-lib-2.4-jdk15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/cos-05Nov2002.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.aop-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.asm-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.beans-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.context-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.core-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.expression-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.jdbc-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.oxm-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.transaction-3.0.5.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.springframework.web.servlet-3.0.5.RELEASE.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="hibernate-3.2.0.cr2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/hibernate-3.2.0.cr2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.persistence.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/javax.persistence.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jdo2-api-2.3-eb.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jdo2-api-2.3-eb.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="saxon-xqj-9.1.0.8.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/saxon-xqj-9.1.0.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="servlet-api-2.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/servlet-api-2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="usrlib.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/usrlib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlsec-1.3.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xmlsec-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="el-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/el-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsp-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jsp-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.ejb.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/javax.ejb.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.web-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.web-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-fileupload-1.1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-fileupload-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json-lib-2.4-jdk15.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/json-lib-2.4-jdk15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cos-05Nov2002.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/cos-05Nov2002.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.aop-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.aop-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.asm-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.asm-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.beans-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.beans-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.context-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.context-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.core-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.core-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.expression-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.expression-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.jdbc-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.jdbc-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.oxm-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.oxm-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.transaction-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.transaction-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.web.servlet-3.0.5.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.web.servlet-3.0.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

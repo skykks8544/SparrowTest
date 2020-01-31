@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sqlMap namespace="Product">
+
+<typeAlias alias="product" type="com.ibatis.example.Product" />
+
+<cacheModel id="productCache" type="LRU">
+  <flushInterval hours="24"/>
+  <property name="size" value="1000" />
+</cacheModel>
+
+<parameterMap id="productParam" class="product">
+  <parameter property="id"/>
+</parameterMap>
+
+<resultMap id="productResult" class="product">
+  <result property="id" column="PRD_ID"/>
+  <result property="description" column="PRD_DESCRIPTION"/>
+</resultMap>
+
+<select id="getProduct" parameterMap="productParam" cacheModel="productCache">
+
+  select * from PRODUCT where PRD_ID = ?
+
+</select>
+
+<select id="getProduct2" parameterMap="productParam" cacheModel="productCache"> 
+select * from PRODUCT 
+where PRD_ID = $cond$  <!-- BUG -->
+or PRD_ID = $cond2$    <!-- BUG -->
+</select>
+
+<select id="getProduct3" parameterMap="productParam" 
+	cacheModel="productCache"> select * from PRODUCT where PRD_ID = $cond$   <!-- BUG -->
+</select>
+
+</sqlMap>
+
